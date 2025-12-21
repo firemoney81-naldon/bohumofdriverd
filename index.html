@@ -69,620 +69,388 @@
 
 
 
-
-
     <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
         {
-          "@context": "https://schema.org",
-          "@type": "WebPage",
-          "name": "2026년 최신 운전자보험 보상 핵심 정리",
-          "url": "https://yourdomain.com/driver-insurance-compensation",
-          "description": "운전자보험 보상 범위와 특약별 지급 기준을 2026년 기준으로 상세히 안내합니다. 교통사고 발생 시 실질적인 보장을 위한 필수 가이드.",
-          "lastReviewed": "2026-01-01",
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://yourdomain.com/driver-insurance-compensation"
-          },
-          "publisher": {
-            "@type": "Organization",
-            "name": "운전자보험 전문 정보 제공처"
+          "@type": "Question",
+          "name": "운전자보험 보상 범위에서 가장 중요한 항목은 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "가장 핵심적인 3대 보상은 교통사고처리지원금(형사합의금), 변호사선임비용, 그리고 벌금(대인/대물)입니다. 특히 2026년 기준 공탁 선지급 제도 활용 여부가 중요합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "음주운전이나 무면허 사고도 운전자보험 보상이 되나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "아니요. 음주운전, 무면허, 뺑소니 사고는 운전자보험의 보상 제외 대상이며 이는 사회적 합의와 법규에 따른 필수 면책 사항입니다."
           }
         }
+      ]
+    }
     </script>
 
     <style>
+        /* 기본 스타일 및 부드러운 색감 적용 */
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e67e22;
+            --bg-light: #f4f7f9;
+            --text-main: #2d3436;
+            --text-muted: #636e72;
+            --white: #ffffff;
+            --soft-blue: #eef2f7;
+        }
+
         body {
-            font-family: "Noto Sans KR", sans-serif;
+            font-family: "Pretendard", "Noto Sans KR", sans-serif;
             margin: 0;
             padding: 0;
-            line-height: 1.8; /* 가독성 향상을 위해 1.6에서 1.8로 조정 */
-            background-color: #f0f4f8; /* 부드럽고 다채로운 배경색 */
-            color: #2c3e50; /* 명확한 텍스트 색상 */
-            font-weight: 300;
+            line-height: 1.8;
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            word-break: keep-all;
         }
+
         header {
-            background-color: #3498db; /* 시원하고 부드러운 파란색 */
-            color: white;
-            padding: 2rem 1rem;
+            background: linear-gradient(135deg, #1e3799, #0984e3);
+            color: var(--white);
+            padding: 3rem 1rem;
             text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
-        h1 {
+
+        header h1 {
             font-size: 2.2rem;
-            margin-bottom: 0.5rem;
-            font-weight: 700;
+            margin: 0;
+            letter-spacing: -1px;
         }
-        nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            margin-top: 1rem;
+
+        nav {
+            margin-top: 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            display: inline-block;
+            padding: 0.5rem 2rem;
+            border-radius: 30px;
         }
+
         nav a {
-            color: white;
+            color: var(--white);
             text-decoration: none;
-            font-weight: 600;
-            padding: 0.5rem 0;
-            border-bottom: 2px solid transparent;
-            transition: border-bottom 0.3s ease, color 0.3s ease;
+            margin: 0 1rem;
+            font-weight: 500;
+            transition: 0.3s;
         }
+
         nav a:hover {
-            color: #f1c40f; /* 부드러운 노란색 */
-            border-bottom: 2px solid #f1c40f;
+            color: #ffda79;
         }
+
         main {
-            max-width: 1000px; /* 더 넓은 콘텐츠 영역 */
+            max-width: 1000px;
             margin: 2rem auto;
-            padding: 0 1.5rem;
-            background-color: white;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-            border-radius: 12px;
+            padding: 2rem;
+            background-color: var(--white);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
         }
+
         section {
-            padding: 2rem 0;
-            border-bottom: 1px solid #ecf0f1;
+            margin-bottom: 4rem;
         }
-        section:last-child {
-            border-bottom: none;
-        }
+
         h2 {
-            color: #2980b9; /* 청명한 파란색 */
-            font-size: 1.8rem;
-            border-left: 5px solid #3498db;
+            border-left: 5px solid var(--secondary-color);
             padding-left: 1rem;
+            color: var(--primary-color);
+            font-size: 1.8rem;
             margin-bottom: 1.5rem;
-            font-weight: 700;
         }
+
         h3 {
-            color: #e67e22; /* 다채로운 주황색 */
-            font-size: 1.4rem;
+            color: var(--secondary-color);
             margin-top: 2rem;
-            margin-bottom: 1rem;
-            font-weight: 600;
         }
+
         p {
-            margin-bottom: 1.5rem;
+            margin-bottom: 1.2rem;
             text-align: justify;
         }
+
+        /* 표 디자인 최적화 */
+        .table-wrapper {
+            overflow-x: auto;
+            margin: 2rem 0;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 1.5rem 0;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            background: var(--white);
         }
-        th, td {
-            padding: 1rem;
-            border: 1px solid #dcdcdc;
-            text-align: left;
-            font-size: 0.95rem;
-        }
+
         th {
-            background-color: #3498db;
-            color: white;
-            font-weight: 700;
-            vertical-align: top;
+            background-color: var(--soft-blue);
+            color: var(--primary-color);
+            padding: 1rem;
+            border: 1px solid #dee2e6;
         }
+
         td {
-            background-color: #fcfcfc;
-        }
-        .cta-button {
-            display: block;
-            background-color: #e74c3c; /* 눈에 띄는 빨간색 */
-            color: white;
-            font-weight: 700;
-            padding: 1.2rem 2.5rem;
-            border-radius: 8px;
-            text-decoration: none;
-            margin: 2rem auto;
-            max-width: 300px;
+            padding: 1rem;
+            border: 1px solid #dee2e6;
             text-align: center;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-            font-size: 1.1rem;
         }
-        .cta-button:hover {
-            background-color: #c0392b;
-            transform: translateY(-2px);
-        }
-        .keyword-tags {
+
+        /* 정보량 확대를 위한 박스 모델 */
+        .info-box {
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef;
+            padding: 1.5rem;
+            border-radius: 10px;
             margin: 1.5rem 0;
+        }
+
+        .keyword-tag-container {
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
-            border-top: 1px solid #ecf0f1;
-            padding-top: 1rem;
+            margin: 2rem 0;
         }
-        .keyword-tags a {
-            background-color: #ecf0f1;
-            color: #3498db;
-            padding: 8px 15px;
+
+        .tag {
+            background-color: #dfe6e9;
+            color: #2d3436;
+            padding: 5px 15px;
             border-radius: 20px;
             font-size: 0.85rem;
             text-decoration: none;
-            transition: background-color 0.3s ease, color 0.3s ease;
-            font-weight: 400;
         }
-        .keyword-tags a:hover {
-            background-color: #dce4ec;
-            color: #2980b9;
-        }
-        dl dt {
-            font-weight: 700;
-            margin-top: 1.5rem;
-            padding: 1rem;
-            background-color: #f7f9fb;
-            border: 1px solid #dce4ec;
-            cursor: pointer;
-            color: #2980b9;
-            border-radius: 6px;
-            transition: background-color 0.3s ease;
-        }
-        dl dt:hover {
-            background-color: #eef3f7;
-        }
-        dl dt.active {
-            background-color: #3498db;
-            color: white;
-        }
-        dl dd {
-            margin-left: 0;
-            padding: 1rem;
-            border: 1px solid #dce4ec;
-            border-top: none;
-            display: none;
-            background-color: white;
-            border-radius: 0 0 6px 6px;
-            text-align: justify;
-            font-weight: 400;
-        }
-        dl dt.active + dd {
-            display: block;
-        }
-        .external-links {
-            padding: 1rem;
-            background-color: #f7f9fb;
-            border-radius: 8px;
-            margin-top: 2rem;
-        }
-        .external-links h3 {
-            color: #2c3e50;
-            margin-top: 0;
-        }
-        .external-links ul {
-            list-style: disc;
-            padding-left: 20px;
-        }
-        .external-links li {
-            margin-bottom: 0.5rem;
-        }
-        .external-links a {
-            color: #3498db;
-            text-decoration: none;
-            font-weight: 400;
-        }
-        .external-links a:hover {
-            text-decoration: underline;
-        }
-        form {
+
+        /* 입력란 및 체류시간 증대 요소 */
+        .calculator-section {
+            background-color: var(--soft-blue);
             padding: 2rem;
-            background-color: #ecf0f1;
-            border-radius: 8px;
-            margin-top: 2rem;
-            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+            border-radius: 15px;
+            margin-top: 3rem;
         }
+
         .form-group {
             margin-bottom: 1.5rem;
         }
-        .form-group label {
+
+        label {
             display: block;
             margin-bottom: 0.5rem;
             font-weight: 600;
-            color: #2c3e50;
         }
-        .form-group input[type="text"],
-        .form-group input[type="email"],
-        .form-group input[type="tel"],
-        .form-group select,
-        .form-group textarea {
+
+        input[type="text"], input[type="number"], select, textarea {
             width: 100%;
-            padding: 12px;
-            border: 1px solid #bdc3c7;
-            border-radius: 4px;
-            box-sizing: border-box;
-            transition: border-color 0.3s ease;
-            font-size: 1rem;
-        }
-        .form-group input:focus,
-        .form-group select:focus,
-        .form-group textarea:focus {
-            border-color: #3498db;
-            outline: none;
-            box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
-        }
-        .form-submit {
-            background-color: #2ecc71; /* 제출 버튼 녹색 */
-            color: white;
-            border: none;
-            padding: 15px 30px;
-            cursor: pointer;
+            padding: 0.8rem;
+            border: 1px solid #ccc;
             border-radius: 8px;
-            font-weight: 700;
-            font-size: 1.1rem;
-            transition: background-color 0.3s ease;
+            box-sizing: border-box;
+        }
+
+        .cta-button {
+            display: block;
             width: 100%;
+            background-color: var(--secondary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.3s;
         }
-        .form-submit:hover {
-            background-color: #27ae60;
+
+        .cta-button:hover {
+            background-color: #2980b9;
         }
+
+        .external-links {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #eee;
+        }
+
+        .external-links a {
+            color: var(--secondary-color);
+            display: block;
+            margin-bottom: 0.5rem;
+            text-decoration: none;
+        }
+
         footer {
             text-align: center;
-            padding: 2rem;
+            padding: 3rem;
+            background-color: var(--primary-color);
+            color: #bdc3c7;
             font-size: 0.9rem;
-            color: #7f8c8d;
-            background-color: #ecf0f1;
-            margin-top: 3rem;
-            border-top: 1px solid #dcdcdc;
-        }
-        strong {
-            font-weight: 700;
-            color: #2c3e50;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>운전자보험 보상: 2026년 교통사고 핵심 보장 분석 및 가입 가이드</h1>
-        <p>복잡한 교통사고 상황, 운전자보험의 보상 범위와 특약 내용을 명확하게 이해하고 대비하세요.</p>
-        <nav aria-label="주요 내비게이션">
-            <ul>
-                <li><a href="#보상범위">핵심 보상 범위</a></li>
-                <li><a href="#필수특약">필수 특약 상세</a></li>
-                <li><a href="#비교견적">운전자보험 비교</a></li>
-                <li><a href="#자주묻는질문">자주 묻는 질문</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section id="보상범위">
-            <h2>운전자보험 보상: 교통사고 발생 시 실질적인 방어 수단</h2>
-            <p>
-                2026년 현재, 대한민국에서 자동차를 운전하는 것은 단순히 이동 수단을 이용하는 것을 넘어 법적, 경제적 책임이 동반되는 행위입니다. **운전자보험 보상**은 자동차보험이 처리하는 민사적 손해배상(대인/대물)을 넘어, 운전자가 중대 법규 위반 사고 또는 12대 중과실 사고 발생 시 직면할 수 있는 **형사적, 행정적 책임**과 관련된 비용을 보상해주는 상품입니다. 특히, 민식이법 시행 이후 어린이 보호구역 내 사고에 대한 처벌이 강화되면서 그 중요성이 더욱 부각되었습니다. 운전자보험은 법률적인 방어 비용을 마련해줌으로써 운전자의 심리적, 경제적 부담을 크게 덜어주는 역할을 합니다.
-            </p>
-            <p>
-                운전자보험의 핵심적인 보상 항목들은 대부분 형사적 책임을 방어하기 위한 비용들로 구성되어 있으며, 이는 크게 **교통사고 처리 지원금, 벌금, 변호사 선임 비용** 세 가지로 나뉩니다. 운전자는 본인의 운전 습관, 환경, 차량 종류 등을 고려하여 이러한 핵심 보상 항목들의 한도를 충분히 확보하는 것이 중요합니다. 단순히 보험료가 저렴한 상품만을 선택하기보다는, 실제 사고 발생 시 필요한 보상 수준을 충족하는지 꼼꼼하게 확인해야 합니다.
-            </p>
+<header>
+    <h1>2026 운전자보험 보상 및 청구 가이드</h1>
+    <p>교통사고 처리의 핵심인 운전자보험 보상 범위를 법률적 관점에서 심층 분석합니다.</p>
+    <nav>
+        <a href="#intro">필요성</a>
+        <a href="#coverage">보상항목</a>
+        <a href="#process">청구절차</a>
+        <a href="#faq">자주묻는질문</a>
+    </nav>
+</header>
 
-            <h3>운전자보험 핵심 3대 보장 항목 (2026년 기준)</h3>
+<main>
+    <section id="intro">
+        <h2>운전자보험 보상의 중요성과 필요성</h2>
+        <p>운전자보험 보상은 자동차보험만으로는 해결할 수 없는 형사적, 행정적 책임을 보장하는 데 그 목적이 있습니다. 자동차보험이 타인의 신체나 재산에 대한 손해배상(민사)을 담당한다면, 운전자보험은 사고를 일으킨 운전자 본인을 보호하기 위한 방어 수단입니다.</p>
+        <p>특히 2026년 현재 도로교통법의 강화와 12대 중과실 사고에 대한 엄격한 법 적용으로 인해 무고한 가해자가 된 경우에도 거액의 합의금이나 변호사 비용이 발생할 수 있습니다. 이러한 리스크를 관리하기 위해 보상 항목을 정확히 이해하는 것이 필수적입니다.</p>
+        
+        <div class="keyword-tag-container">
+            <span class="tag">운전자보험 보상 범위</span>
+            <span class="tag">교통사고처리지원금</span>
+            <span class="tag">12대 중과실 사고</span>
+            <span class="tag">민식이법 대응</span>
+            <span class="tag">변호사 선임 비용</span>
+            <span class="tag">운전자보험 벌금 특약</span>
+            <span class="tag">자동차사고부상치료비</span>
+        </div>
+    </section>
+
+    <section id="coverage">
+        <h2>운전자보험 주요 보상 항목 상세 분석</h2>
+        <p>보상 항목은 크게 형사합의금, 변호사비용, 벌금으로 나뉩니다. 각 항목은 사고 규모와 법적 절차에 따라 지급 기준이 달라지므로 세부 약관을 확인해야 합니다.</p>
+        
+        <div class="table-wrapper">
             <table>
                 <thead>
                     <tr>
-                        <th>구분</th>
-                        <th>주요 보상 내용</th>
-                        <th>2026년 권장 보상 한도</th>
+                        <th>보상 항목</th>
+                        <th>상세 내용</th>
+                        <th>2026년 기준 한도</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><strong>교통사고 처리 지원금</strong></td>
-                        <td>피해자가 사망하거나 중상해를 입었을 경우, 가해자가 형사 합의금으로 피해자에게 지급하는 비용을 보상합니다. (특정 법규 위반 시 포함)</td>
-                        <td>최대 2억 원 ~ 2억 5천만 원 이상</td>
+                        <td>교통사고처리지원금</td>
+                        <td>피해자 사망 또는 중상해 시 형사합의금 지원</td>
+                        <td>최대 2억 원 이상</td>
                     </tr>
                     <tr>
-                        <td><strong>운전자 벌금</strong></td>
-                        <td>자동차 사고로 타인의 신체에 상해를 입혀 법원으로부터 확정된 벌금형이 나올 경우, 그 벌금액을 보상합니다. (대인, 대물 각각 구분)</td>
-                        <td>대인 벌금 최대 3천만 원 (민식이법 관련 5백만 원 추가 특약 고려), 대물 벌금 최대 500만 원</td>
+                        <td>변호사선임비용</td>
+                        <td>구속 영장 발부 또는 기소 시 변호사 비용 지원</td>
+                        <td>최대 5,000만 원</td>
                     </tr>
                     <tr>
-                        <td><strong>변호사 선임 비용</strong></td>
-                        <td>구속되거나 공소 제기(기소)될 경우 변호사를 선임하는 데 필요한 비용을 보상합니다. 최근에는 약식기소 또는 경찰조사 단계부터 보장하는 특약도 주목됩니다.</td>
-                        <td>최대 5천만 원 ~ 1억 원 (경찰조사 단계 보장 특약 필수 확인)</td>
+                        <td>대인/대물 벌금</td>
+                        <td>확정 판결에 따른 벌금 실액 보상</td>
+                        <td>최대 3,000만 원</td>
+                    </tr>
+                    <tr>
+                        <td>자동차사고부상치료비</td>
+                        <td>상해 등급(1~14급)에 따른 정액 보상</td>
+                        <td>급수별 상이</td>
                     </tr>
                 </tbody>
             </table>
+        </div>
 
-            <p>
-                이 외에도 **자가용 운전 중 상해 사망/후유장해, 상해 입원일당, 자동차 부상 치료비(자부상)** 등 운전자 본인을 위한 상해 보상 항목들이 특약 형태로 제공됩니다. 특히 자부상 특약은 가벼운 접촉사고에도 부상 등급에 따라 정액을 지급하여 운전자들이 많이 찾는 특약 중 하나입니다. 그러나 가장 중요한 것은 운전자의 형사적 책임 방어를 위한 3대 핵심 보장이라는 점을 명심해야 합니다.
-            </p>
-        </section>
+        <h3>1. 교통사고처리지원금 (형사합의금)</h3>
+        <p>과거에는 피보험자가 직접 합의금을 마련한 뒤 보험사에 청구하는 방식이었으나, 현재는 보험사가 피해자에게 직접 지급하는 선지급 제도가 정착되었습니다. 이는 경제적 여력이 없는 운전자가 합의 시기를 놓쳐 형사 처벌이 가중되는 것을 방지합니다.</p>
 
-        <section id="필수특약">
-            <h2>운전자보험 필수 특약 및 보상 제외 사례 분석</h2>
-            <p>
-                운전자보험의 실효성을 높이기 위해서는 핵심 보장 외에도 최근 교통 환경 변화에 맞춘 필수 특약을 추가하는 것이 중요합니다. 2026년 보험 시장에서는 **경찰조사 단계 변호사 선임 비용 보장 특약**과 **중상해 교통사고 시 합의 지원 특약**이 특히 중요하게 강조되고 있습니다. 사고 초기 단계부터 법률 전문가의 도움을 받는 것이 형사 처벌 수위를 결정하는 데 결정적인 역할을 하기 때문입니다.
-            </p>
+        <h3>2. 변호사 선임 비용</h3>
+        <p>과거에는 경찰 조사 단계에서는 지급되지 않았으나, 최신 상품들은 경찰 조사 단계부터 변호사의 도움을 받을 수 있도록 보장 범위를 확대하고 있습니다. 이는 초기 진술의 중요성이 커진 법률 환경을 반영한 결과입니다.</p>
+    </section>
 
-            <h3>2026년 주목해야 할 핵심 특약</h3>
+    <section id="process">
+        <h2>보상 청구 절차 및 누락 없는 보상 전략</h2>
+        <p>사고 발생 시 가장 먼저 해야 할 일은 보험사에 사고 접수를 하는 것입니다. 이후 경찰 조사가 시작되면 다음의 서류를 준비하여 보상을 청구해야 합니다.</p>
+        
+        <div class="info-box">
+            <strong>보상 청구 필수 서류 목록</strong>
             <ul>
-                <li><strong>경찰조사 단계 변호사 선임 비용:</strong> 기존에는 구속되거나 정식 재판에 회부될 때만 변호사 비용을 보상했지만, 최근에는 경찰 조사 단계부터 변호사를 선임할 경우 발생하는 비용을 보상하는 특약이 생겼습니다. 초동 대처가 중요한 형사 사건에서 필수적으로 고려해야 할 특약입니다.</li>
-                <li><strong>6주 미만 진단 사고 처리 지원금:</strong> 12대 중과실 사고가 아닌 일반적인 교통사고에서 피해자가 6주 미만의 진단을 받았을 경우, 합의를 위해 필요한 지원금을 보상해주는 특약입니다. 경미한 사고라 하더라도 형사 합의가 필요할 수 있는 상황에 유용합니다.</li>
-                <li><strong>자동차 부상 치료비(자부상):</strong> 운전 중 발생한 사고로 본인이 다쳤을 때, 과실 여부와 관계없이 부상 등급에 따라 정액을 지급하는 특약입니다. 사고의 규모와 관계없이 보상받을 수 있어 운전자들의 선호도가 높습니다.</li>
+                <li>보험금 청구서 및 개인정보동의서</li>
+                <li>교통사고 사실확인원 (경찰서 발급)</li>
+                <li>피해자와의 합의서 및 영수증 (형사합의 시)</li>
+                <li>법원 판결문 또는 벌금 납부 영수증</li>
+                <li>진단서 및 진료비 영수증 (부상치료비 청구 시)</li>
             </ul>
+        </div>
 
-            <h3>운전자보험 보상이 제외되는 주요 사례</h3>
-            <p>
-                운전자보험은 모든 교통사고에 대해 보상하는 만능 보험이 아닙니다. 보험 약관상 명확하게 보상이 제외되는 경우가 존재하며, 이는 운전자가 반드시 숙지해야 할 사항입니다. 보상 제외 사유가 발생하면, 앞서 설명한 **교통사고 처리 지원금, 벌금, 변호사 선임 비용** 등의 핵심 보장 항목 모두에서 보험금을 지급받을 수 없습니다.
-            </p>
-            <ol>
-                <li><strong>음주운전, 무면허운전:</strong> 도로교통법상 중대한 위반 행위로, 운전자보험에서는 일절 보상하지 않습니다. 이는 운전자보험의 가장 기본적인 면책 사항입니다.</li>
-                <li><strong>고의적인 사고:</strong> 보험금을 목적으로 고의적으로 사고를 유발한 경우 당연히 보상이 제외됩니다.</li>
-                <li><strong>영업용 차량 운전 중 사고:</strong> 특약 가입 여부에 따라 달라질 수 있지만, 일반적으로 개인용 운전자보험은 택시, 버스, 화물차 등 영업을 목적으로 하는 차량 운전 중 발생한 사고에 대해서는 보상하지 않습니다.</li>
-                <li><strong>사고의 결과가 형사 처벌 대상이 아닌 경우:</strong> 운전자보험은 형사적 책임 비용을 보상하는 것이 주 목적이므로, 단순 물적 피해나 경미한 인적 피해로 인해 형사상 책임이 발생하지 않는 경우에는 보상하지 않습니다.</li>
-            </ol>
-            <p>
-                **자동차사고 벌금** 보상 특약의 경우, 대법원에서 확정된 벌금형에 대해서만 보상하며, 약식명령에 대한 정식재판 청구가 없는 경우에는 해당되지 않는 경우가 있을 수 있습니다. 따라서 보험 약관을 통해 정확한 **운전자보험 보상** 지급 기준을 확인하는 것이 필수적입니다.
-            </p>
+        <p>보상을 받을 때 유의할 점은 '면책 사항'입니다. 음주운전, 무면허 운전, 사고 후 도주(뺑소니)의 경우에는 운전자보험의 모든 보상에서 제외됩니다. 이는 도덕적 해이를 방지하기 위한 법적 장치입니다.</p>
+    </section>
 
-            <div class="keyword-tags" aria-label="운전자보험 연관 키워드 목록">
-                <a href="#비교견적">운전자보험 비교사이트</a>
-                <a href="#필수특약">경찰조사 변호사</a>
-                <a href="#">자동차 부상 치료비</a>
-                <a href="#">음주운전 보상 제외</a>
-                <a href="#">운전자보험 가입 시기</a>
-                <a href="#">운전자보험 필수</a>
-                <a href="#">운전자보험 갈아타기</a>
-                <a href="#">운전자보험 만기</a>
-                <a href="#">운전자보험 해지 환급금</a>
-                <a href="#">운전자보험 공소제기</a>
-                <a href="#">중상해 교통사고</a>
-                <a href="#">12대 중과실 사고</a>
-                <a href="#">민식이법 보상</a>
-                <a href="#">운전자보험 자기부담금</a>
-                <a href="#">교통사고 형사합의</a>
-                <a href="#">무면허 운전 면책</a>
-                <a href="#">운전자보험 보상 청구</a>
-                <a href="#">운전자보험 보험료</a>
-                <a href="#">월 보험료</a>
-                <a href="#">만기환급형</a>
-                <a href="#">순수보장형</a>
-                <a href="#">운전자보험 선택 기준</a>
-                <a href="#">교통사고 피해자 보상</a>
-                <a href="#">운전자보험 추천</a>
-                <a href="#">2026 운전자보험</a>
-                <a href="#">운전자보험 약관</a>
-                <a href="#">운전자보험 벌금 한도</a>
-                <a href="#">변호사 선임비용 보장 범위</a>
-                <a href="#">교통사고 처리금 특약</a>
-                <a href="#">자동차사고</a>
-                <a href="#">보험설계</a>
-                <a href="#">가족 운전자보험</a>
-                <a href="#">갱신형 비갱신형</a>
-                <a href="#">운전자 상해</a>
-                <a href="#">자동차보험과의 차이</a>
-                <a href="#">뺑소니 사고 보상</a>
-                <a href="#">공탁금 제도</a>
-                <a href="#">운전자보험 지급 사유</a>
-                <a href="#">교통사고 합의금</a>
-                <a href="#">운전자보험 가성비</a>
-                <a href="#">운전자보험 비교견적</a>
-                <a href="#">운전자보험 다이렉트</a>
-                <a href="#">운전자보험 필요성</a>
-                <a href="#">교통사고처리특례법</a>
-                <a href="#">손해보험사</a>
-                <a href="#">운전자보험 보상 기간</a>
-                <a href="#">운전자보험 의무가입</a>
-                <a href="#">도로교통법</a>
-                <a href="#">운전자보험 사망 보상</a>
-                <a href="#">운전자보험 후유장해</a>
-                <a href="#">운전자보험 특약 종류</a>
-                <a href="#">운전자보험 팁</a>
-                <a href="#">운전자보험 최신 정보</a>
-                <a href="#">운전자보험 재가입</a>
-                <a href="#">운전자보험 할인</a>
-                <a href="#">보험금 청구 절차</a>
-                <a href="#">운전자보험 신뢰성</a>
-                <a href="#">운전자보험 보장 분석</a>
-                <a href="#">자동차 벌금 한도</a>
-                <a href="#">교통사고 피해자 구호</a>
-                <a href="#">음주측정 거부</a>
-                <a href="#">운전자보험 면책사유</a>
-                <a href="#">업무상 과실</a>
-                <a href="#">중과실 사고</a>
-                <a href="#">운전자보험 가입자</a>
-                <a href="#">자동차 보험 비교</a>
-                <a href="#">운전자보험 가입 조건</a>
-                <a href="#">운전자보험 상품</a>
-                <a href="#">최적의 운전자보험</a>
-                <a href="#">운전자보험 설계</a>
-                <a href="#">운전자보험 비용</a>
-                <a href="#">운전자보험 가입 요령</a>
-                <a href="#">교통사고 전문가</a>
-                <a href="#">운전자보험 상담</a>
-                <a href="#">보험 약관 분석</a>
-                <a href="#">도로교통공단</a>
-                <a href="#">경찰청</a>
-                <a href="#">보험개발원</a>
-                <a href="#">함께 많이 찾는 키워드: 자동차보험료</a>
-                <a href="#">함께 많이 찾는 키워드: 운전자보험 상품 추천</a>
-                <a href="#">함께 많이 찾는 키워드: 자동차사고 합의</a>
-                <a href="#">함께 많이 찾는 키워드: 운전자보험 특약 변경</a>
+    <section class="calculator-section">
+        <h2>운전자보험 보상 진단 및 상담 요청</h2>
+        <p>현재 가입하신 보험이 최신 법규를 반영하고 있는지 확인해보세요. 아래 정보를 입력하시면 전문가가 보상 적절성을 분석해 드립니다.</p>
+        
+        <form id="consultationForm">
+            <div class="form-group">
+                <label for="name">성함</label>
+                <input type="text" id="name" placeholder="성함을 입력하세요">
             </div>
+            <div class="form-group">
+                <label for="phone">연락처</label>
+                <input type="text" id="phone" placeholder="010-0000-0000">
+            </div>
+            <div class="form-group">
+                <label for="insurance-date">가입 시기</label>
+                <select id="insurance-date">
+                    <option value="2020-before">2020년 이전 가입</option>
+                    <option value="2020-2023">2020년 ~ 2023년 가입</option>
+                    <option value="2024-after">2024년 이후 가입</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">문의 내용 (사고 유형 또는 궁금한 항목)</label>
+                <textarea id="message" rows="5" placeholder="예: 12대 중과실 사고 보상 한도가 궁금합니다."></textarea>
+            </div>
+            <button type="button" class="cta-button" onclick="alert('문의가 접수되었습니다. 담당자가 곧 연락드리겠습니다.')">무료 보상 진단 받기</button>
+        </form>
+    </section>
 
-            <p>
-                운전자보험을 준비하는 운전자는 단순히 보험료의 저렴함에만 현혹될 것이 아니라, 보상 한도가 충분한지, 특히 중과실 사고 발생 시 **교통사고 처리 지원금** 한도가 법적 책임을 감당할 수 있는 수준인지, 그리고 **변호사 선임 비용** 특약이 초기에 작동하는지 여부를 반드시 점검해야 합니다. 운전자보험의 주된 기능은 사고 이후 법적 방어 비용을 지원받는 것이기 때문에, 이 세 가지 핵심 보장이 튼튼해야 합니다.
-            </p>
-        </section>
+    <section id="faq">
+        <h2>자주 묻는 질문 (FAQ)</h2>
+        <div class="info-box">
+            <p><strong>Q: 자동차보험이 있는데 왜 운전자보험 보상이 따로 필요한가요?</strong></p>
+            <p>A: 자동차보험은 상대방의 피해를 보상하는 '민사' 중심이며, 운전자보험은 본인의 형사적 책임(합의금, 벌금, 변호사비용)을 보상하기 때문입니다.</p>
+        </div>
+        <div class="info-box">
+            <p><strong>Q: 가족이 운전하다 사고가 나도 보상이 되나요?</strong></p>
+            <p>A: 운전자보험은 '사람' 기준 보험입니다. 기명피보험자 본인이 운전 중일 때 보상하는 것이 원칙이나, 가족형 특약 가입 여부에 따라 달라질 수 있습니다.</p>
+        </div>
+    </section>
 
-        <section id="비교견적">
-            <h2>나에게 맞는 운전자보험료 및 보장 비교</h2>
-            <p>
-                운전자보험은 보험사별로, 그리고 가입하는 특약 구성에 따라 보험료와 보상 내용이 천차만별입니다. **운전자보험 비교**는 합리적인 보험료로 최대의 보장 효과를 얻기 위해 필수적인 과정입니다. 특히 갱신형과 비갱신형의 장단점을 명확히 파악하고, 본인의 예상 운전 기간과 재정 상황에 맞춰 선택해야 합니다.
-            </p>
+    <section class="external-links">
+        <h2>공인된 신뢰 정보원</h2>
+        <p>더 상세한 법규 및 보상 관련 정보는 아래 공식 기관 사이트에서 확인하실 수 있습니다.</p>
+        <a href="https://www.fss.or.kr" target="_blank" rel="noopener">금융감독원 - 보험 보상 관련 감독 지침</a>
+        <a href="https://www.knia.or.kr" target="_blank" rel="noopener">손해보험협회 - 자동차보험 및 운전자보험 안내</a>
+        <a href="https://www.police.go.kr" target="_blank" rel="noopener">경찰청 교통민원24 - 교통사고 처리 절차 안내</a>
+        <a href="https://www.law.go.kr" target="_blank" rel="noopener">국가법령정보센터 - 도로교통법 및 보험업법 확인</a>
+        <a href="https://namu.wiki/w/%EC%93%B4%EC%A0%84%EC%9E%90%EB%B3%B4%ED%97%98" target="_blank" rel="noopener">나무위키 - 운전자보험 개요 및 특징</a>
+    </section>
+</main>
 
-            <h3>갱신형 vs 비갱신형 운전자보험 특징 비교</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>구분</th>
-                        <th>갱신형 운전자보험</th>
-                        <th>비갱신형 운전자보험</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>보험료 변동</strong></td>
-                        <td>일정 주기(예: 3년, 5년)마다 보험료가 변동(주로 인상)될 수 있음</td>
-                        <td>납입 기간 동안 보험료 변동 없음</td>
-                    </tr>
-                    <tr>
-                        <td><strong>초기 보험료</strong></td>
-                        <td>비갱신형에 비해 초기 보험료가 저렴함</td>
-                        <td>갱신형에 비해 초기 보험료가 비쌈</td>
-                    </tr>
-                    <tr>
-                        <td><strong>총 납입액</strong></td>
-                        <td>갱신 시점에 따라 총 납입액이 커질 수 있음</td>
-                        <td>총 납입액 예측 가능</td>
-                    </tr>
-                    <tr>
-                        <td><strong>주요 장점</strong></td>
-                        <td>최신 개정 법규에 맞춰 보장 내용을 업데이트하기 용이함</td>
-                        <td>장기적으로 안정적인 보험료 유지 가능</td>
-                    </tr>
-                </tr>
-            </table>
+<footer>
+    <p>&copy; 2026 운전자보험 보상 전문 가이드 정보망. All Rights Reserved.</p>
+    <p>본 사이트의 정보는 참고용이며, 정확한 보상 여부는 가입하신 보험사의 약관을 반드시 확인하시기 바랍니다.</p>
+</footer>
 
-            <p>
-                2026년 기준, 비갱신형 운전자보험은 총 납입액이 예측 가능하고 안정적이라는 장점이 있지만, **교통사고 처리 지원금**과 **벌금** 한도가 법규 개정에 따라 상향될 때마다 보장 금액을 증액하는 데 제약이 따를 수 있습니다. 반면, 갱신형은 보험료 인상 부담이 있지만, 최신 법규 변화(예: 민식이법 등)에 맞춰 보장 내용을 쉽게 상향 조정할 수 있다는 유연성이 있습니다. 운전자는 이 점을 고려하여 본인에게 적합한 형태를 선택해야 합니다.
-            </p>
-
-            <form action="#" method="post" id="견적문의폼" aria-label="운전자보험 맞춤 견적 요청">
-                <h3>맞춤형 운전자보험 보상 견적 요청 (체류 시간 증대를 위한 입력란)</h3>
-                <div class="form-group">
-                    <label for="name">성함</label>
-                    <input type="text" id="name" name="name" required placeholder="본인의 성함을 입력해 주세요">
-                </div>
-                <div class="form-group">
-                    <label for="tel">연락처</label>
-                    <input type="tel" id="tel" name="tel" required pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}" placeholder="예: 010-1234-5678">
-                </div>
-                <div class="form-group">
-                    <label for="birth">생년월일</label>
-                    <input type="text" id="birth" name="birth" required placeholder="YYMMDD (예: 900305)">
-                </div>
-                <div class="form-group">
-                    <label for="gender">성별</label>
-                    <select id="gender" name="gender" required>
-                        <option value="">-- 선택 --</option>
-                        <option value="male">남성</option>
-                        <option value="female">여성</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="type">희망 보험 종류</label>
-                    <select id="type" name="type" required>
-                        <option value="">-- 선택 --</option>
-                        <option value="non-renewal">비갱신형 (안정적 보험료)</option>
-                        <option value="renewal">갱신형 (최신 보장 유연성)</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="coverage">핵심 보상 한도 희망 금액 (교통사고 처리 지원금 기준)</label>
-                    <select id="coverage" name="coverage" required>
-                        <option value="">-- 선택 --</option>
-                        <option value="200m">2억 원</option>
-                        <option value="250m">2억 5천만 원</option>
-                        <option value="300m">3억 원 이상</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="message">추가 문의 사항 (선호하는 특약, 현재 보험 가입 여부 등)</label>
-                    <textarea id="message" name="message" rows="4" placeholder="예: 경찰조사 변호사 특약 필수로 넣고 싶습니다."></textarea>
-                </div>
-                <button type="submit" class="form-submit">운전자보험 맞춤 견적 요청하기</button>
-            </form>
-        </section>
-
-        <section id="자주묻는질문">
-            <h2>운전자보험 보상 관련 자주 묻는 질문 (FAQ)</h2>
-            <dl>
-                <dt tabindex="0" aria-expanded="false" class="faq-dt">운전자보험과 자동차보험의 차이점은 무엇인가요?</dt>
-                <dd><strong>자동차보험</strong>은 의무가입으로, 교통사고 발생 시 타인의 신체/재산 피해(민사적 손해배상)를 보상하는 것이 주 목적입니다. 반면, <strong>운전자보험</strong>은 임의가입으로, 운전자가 중대 법규 위반 사고 등으로 인해 형사적/행정적 책임을 져야 할 때 발생하는 비용(벌금, 변호사 선임 비용, 교통사고 처리 지원금)을 보상하는 것이 주 목적입니다. 두 보험은 보상하는 영역이 완전히 다르기 때문에 모두 가입하는 것이 안전합니다.</dd>
-
-                <dt tabindex="0" aria-expanded="false" class="faq-dt">교통사고 처리 지원금은 어떤 방식으로 지급되나요?</dt>
-                <dd>교통사고 처리 지원금(형사합의금)은 피해자와의 형사 합의가 필요할 때 사용됩니다. 과거에는 운전자가 먼저 피해자에게 합의금을 지급하고 보험사에 청구하는 방식이었으나, 최근에는 대부분 보험사가 합의금 전액을 피해자에게 **직접 지급**하는 방식으로 바뀌어 운전자의 경제적 부담을 덜어주고 있습니다. 지급 방식은 보험사별, 상품별 약관에 따라 다를 수 있으므로 가입 시 확인이 필요합니다.</dd>
-
-                <dt tabindex="0" aria-expanded="false" class="faq-dt">무면허 운전 중 사고가 났을 때 운전자보험 보상이 가능한가요?</dt>
-                <dd>운전자보험은 도로교통법상 중대한 법규 위반인 **음주운전, 무면허운전, 도주사고(뺑소니)**에 대해서는 보상을 일절 제외하고 있습니다. 이는 보험의 기본적인 면책 조항이므로, 아무리 좋은 보장 내용을 가진 운전자보험에 가입했더라도 무면허 운전 중 사고가 발생하면 보상받을 수 없습니다.</dd>
-
-                <dt tabindex="0" aria-expanded="false" class="faq-dt">운전자보험의 벌금 보상 한도는 2026년에 어떻게 되나요?</dt>
-                <dd>2026년 기준, **운전자 벌금**의 보상 한도는 대인(타인 신체) 사고에 대해 최대 3천만 원까지 보장하는 것이 일반적이며, **대물 벌금**은 최대 500만 원까지 보장합니다. 특히 스쿨존 내 어린이 상해 사고(민식이법 관련)의 경우, 벌금 한도가 높게 설정될 수 있으므로, 3천만 원 한도를 충분히 확보하는 것이 권장됩니다.</dd>
-
-                <dt tabindex="0" aria-expanded="false" class="faq-dt">운전자보험 가입 시 자가용 외에 다른 차량 운전도 보상받을 수 있나요?</dt>
-                <dd>일반적으로 개인용 운전자보험은 가입자가 운전하는 자가용(비영업용)에 대해 보상합니다. 그러나 업무상 일시적으로 타인의 차량(렌터카 등)을 운전하거나, 동승자로서 사고를 당했을 경우에도 특약에 따라 상해 보상을 받을 수 있습니다. 다만, 택시나 화물차 등 **영업용 차량**을 운전 중 발생한 사고는 별도의 영업용 운전자보험에 가입해야 보상받을 수 있습니다.</dd>
-            </dl>
-        </section>
-
-        <section class="external-links">
-            <h3>공신력 있는 외부 정보 및 신뢰성 확보를 위한 참고 사이트</h3>
-            <ul>
-                <li><a href="https://www.law.go.kr/trtyGfgdList.do?type=trtyGfgd&trtyCd=001" target="_blank" rel="noopener noreferrer">국가법령정보센터 (교통사고 관련 법규 확인)</a></li>
-                <li><a href="https://www.police.go.kr/main.do" target="_blank" rel="noopener noreferrer">경찰청 (교통사고 조사 및 형사 절차 관련 정보)</a></li>
-                <li><a href="https://www.kidi.or.kr/main/main.do" target="_blank" rel="noopener noreferrer">보험개발원 (보험 통계 및 약관 기준 정보)</a></li>
-                <li><a href="https://namu.wiki/w/운전자보험" target="_blank" rel="noopener noreferrer">나무위키 (운전자보험 개요 및 세부 항목 설명)</a></li>
-                <li><a href="https://www.fss.or.kr/fss/main.do" target="_blank" rel="noopener noreferrer">금융감독원 (운전자보험 소비자 유의사항 및 분쟁 조정 사례)</a></li>
-                <li><a href="https://www.korea.kr/main.do" target="_blank" rel="noopener noreferrer">대한민국 정책브리핑 (교통 정책 및 법규 개정 사항)</a></li>
-            </ul>
-        </section>
-
-        <a href="#견적문의폼" class="cta-button" aria-label="운전자보험 핵심 보상 무료 상담 신청">나에게 맞는 운전자보험 보상 지금 확인하기</a>
-    </main>
-
-    <footer>
-        <p>본 정보는 2026년 운전자보험 관련 정보를 기반으로 제공되며, 실제 보험 상품의 약관 및 보상 기준은 개별 보험사 및 상품에 따라 다를 수 있습니다. 정확한 가입 및 보상 문의는 반드시 해당 보험사에 문의하시기 바랍니다.</p>
-        <p>&copy; 2026 운전자보험 전문 정보 제공처. 모든 권리 보유.</p>
-    </footer>
-
-    <script>
-        // FAQ 아코디언 기능 (접기/펼치기) - 사용자 체류 시간 증대 요소
-        document.querySelectorAll('dl dt').forEach((dt) => {
-            dt.addEventListener('click', () => {
-                const isActive = dt.classList.contains('active');
-                
-                // 다른 항목 닫기
-                document.querySelectorAll('dl dt').forEach((otherDt) => {
-                    if (otherDt !== dt && otherDt.classList.contains('active')) {
-                        otherDt.classList.remove('active');
-                        otherDt.setAttribute('aria-expanded', 'false');
-                    }
-                });
-
-                // 현재 항목 토글
-                dt.classList.toggle('active');
-                dt.setAttribute('aria-expanded', !isActive);
-            });
-            
-            dt.addEventListener('keydown', (e) => {
-                if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault();
-                    dt.click();
-                }
-            });
-        });
-    </script>
-
-
+	
 
 
 
@@ -752,5 +520,6 @@
 <link rel="preload" href="https://static.cdninstagram.com/rsrc.php/v4is0w4/yb/l/ko_KR/rFkiMP1qMyJ.js" as="script" crossorigin="anonymous" nonce="2Mv94Jjk" /><script src="https://static.cdninstagram.com/rsrc.php/v4is0w4/yb/l/ko_KR/rFkiMP1qMyJ.js" data-bootloader-hash="mgYHw9T" async="1" crossorigin="anonymous" data-p=":160" data-btmanifest="1027280358_main" data-c="1"></script>
 <link rel="preload" href="https://static.cdninstagram.com/rsrc.php/v4iT4H4/yV/l/ko_KR/zWc0yd6V0XD.js" as="script" crossorigin="anonymous" nonce="2Mv94Jjk" /><script src="https://static.cdninstagram.com/rsrc.php/v4iT4H4/yV/l/ko_KR/zWc0yd6V0XD.js" data-bootloader-hash="cDTWgQH" async="1" crossorigin="anonymous" data-p=":139" data-btmanifest="1027280358_main" data-c="1"></script>
 <link rel="preload" href="https://static.cdninstagram.com/rsrc.php/v4/yY/r/Eil-fzuGz0e.js" as="script" crossorigin="anonymous" nonce="2Mv94Jjk" /><script src="https://static.cdninstagram.com/rsrc.php/v4/yY/r/Eil-fzuGz0e.js" data-bootloader-hash="qgmbN7Z" async="1" crossorigin="anonymous" data-p=":74" data-btmanifest="1027280358_main" data-c="1"></script>
+
 
 
